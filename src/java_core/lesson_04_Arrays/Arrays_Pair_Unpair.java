@@ -1,6 +1,6 @@
-package java_core.lesson_02_ATM;
+package java_core.lesson_04_Arrays;
 
-public class Pair_Unpair {
+public class Arrays_Pair_Unpair {
     public static void main(String[] args) {
 
     //TODO Створити int масив будь-якої довжини з набором будь-яких чисел.

@@ -1,6 +1,6 @@
-package java_core.lesson_01;
+package java_core.lesson_01_DateTypes;
 
-public class DZ_01 {
+public class DateTypes {
     public static void main(String[] args) {
         //Task 1
         System.out.println("Task 1\n");

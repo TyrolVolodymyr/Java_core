@@ -1,4 +1,4 @@
-package java_core.lesson_02_ATM;
+package java_core.lesson_03_ATM;
 
 import java.util.Scanner;
 
