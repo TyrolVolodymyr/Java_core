@@ -1,4 +1,4 @@
-package java_core.lesson_09;
+package java_core.lesson_09_Rectangle;
 
 public class Rectangle {
     int width = 0;
@@ -12,21 +12,22 @@ public class Rectangle {
         this.width = width;
         this.length = length;
     }
+
     public void areaOfRectangle() {
-        int area = width *length;
-        System.out.println("Площа прямокутника = "+ area);
+        int area = width * length;
+        System.out.println("Площа прямокутника = " + area);
     }
 
     public void perimeterOfRectangle() {
-        int perimeter = 2*(width+length);
+        int perimeter = 2 * (width + length);
         System.out.println("Периметр прямокутника = " + perimeter);
     }
 
-    @Override
-    public String toString() {
-        return "Rectangle{" +
-                "width=" + width +
-                ", length=" + length +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Rectangle{" +
+//                "width=" + width +
+//                ", length=" + length +
+//                '}';
+//    }
 }

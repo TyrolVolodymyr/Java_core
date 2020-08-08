@@ -1,4 +1,4 @@
-package java_core.lesson_07;
+package java_core.lesson_07_Weight;
 
 public class Main {
     public static void main(String[] args) {
