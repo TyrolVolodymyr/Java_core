@@ -8,7 +8,7 @@ public class Main {
 
         Monster [] monsters = {dracula,godzilla};
 
-        mainMonster.performance(monsters);
+        mainMonster.callMonster(monsters);
 
     }
 }
