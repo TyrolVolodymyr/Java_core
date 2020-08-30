@@ -95,7 +95,7 @@ public class Main {
                         if (seasons[i].equals(Month.valueOf(monthClient.toUpperCase()).getSeason())) {
                             System.out.println("This season is : = " + Month.valueOf(monthClient.toUpperCase()).getSeason());
                             if (i == 3) {
-                                System.out.println("Next season is : " + seasons[0]);
+                                System.out.println("Now season is : " + seasons[0]);
                             } else {
                                 System.out.println("Next season is : " + seasons[i + 1]);
                             }
@@ -111,7 +111,7 @@ public class Main {
                         if (seasons[i].equals(Month.valueOf(monthClient.toUpperCase()).getSeason())) {
                             System.out.println("This season is : = " + Month.valueOf(monthClient.toUpperCase()).getSeason());
                             if (i == 0) {
-                                System.out.println("Next season is : " + seasons[3]);
+                                System.out.println("Now season is : " + seasons[3]);
                             } else {
                                 System.out.println("Previous season is : " + seasons[i - 1]);
                             }
